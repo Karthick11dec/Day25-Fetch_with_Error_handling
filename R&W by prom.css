@@ -1,0 +1,39 @@
+img{
+    width: 15rem;
+    height: 10rem;
+    size:cover
+}
+.container{
+    background-color: black;
+}
+.grid{
+    grid-template-columns: auto auto auto;
+    grid-gap:40px;
+}
+ul>li>span{
+    font-weight:600;
+    
+}
+
+body{
+    font-family: 'Nova Square', cursive;
+}
+.card{
+    background-color:#b4b87b;
+}
+@media screen and (max-width :992px){
+    .grid{
+        grid-template-columns: auto auto;
+        grid-gap:20px;
+        margin-right: 5%;
+    }
+    
+}
+@media screen and (max-width :576px){
+    .grid{
+        grid-template-columns:auto;
+        grid-gap:20px;
+        margin:10%;
+    }
+    
+}
